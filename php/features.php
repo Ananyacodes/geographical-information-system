@@ -1,0 +1,2 @@
+<?php
+// Geographical features placeholder

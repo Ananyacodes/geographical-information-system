@@ -1,0 +1,2 @@
+<?php
+// Infrastructure operations placeholder

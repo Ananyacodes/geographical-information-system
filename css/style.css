@@ -1,0 +1,13 @@
+/* Main site styles */
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page-shell {
+  padding: 2rem;
+}

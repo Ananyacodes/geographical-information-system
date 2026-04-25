@@ -1,0 +1,2 @@
+<?php
+// Region operations placeholder

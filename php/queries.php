@@ -1,0 +1,2 @@
+<?php
+// Complex queries placeholder
