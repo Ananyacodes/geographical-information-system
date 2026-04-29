@@ -1,16 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GIS Project</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS Database Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main class="page-shell">
-    <h1>GIS Project</h1>
-    <p>Workspace scaffold created.</p>
-  </main>
-  <script src="js/script.js"></script>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>🗺️ GIS System</h2>
+                <p>Team 26</p>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-link active" data-page="dashboard">
+                    <span class="icon">📊</span> Dashboard
+                </a>
+                <a href="#" class="nav-link" data-page="regions">
+                    <span class="icon">🗺️</span> Regions
+                </a>
+                <a href="#" class="nav-link" data-page="locations">
+                    <span class="icon">📍</span> Locations
+                </a>
+                <a href="#" class="nav-link" data-page="features">
+                    <span class="icon">⛰️</span> Geographical Features
+                </a>
+                <a href="#" class="nav-link" data-page="infrastructure">
+                    <span class="icon">🏗️</span> Infrastructure
+                </a>
+                <a href="#" class="nav-link" data-page="queries">
+                    <span class="icon">🔍</span> Advanced Queries
+                </a>
+                <a href="#" class="nav-link" data-page="transactions">
+                    <span class="icon">💾</span> Transactions
+                </a>
+                <a href="#" class="nav-link" data-page="views">
+                    <span class="icon">👁️</span> Database Views
+                </a>
+                <a href="#" class="nav-link" data-page="functions">
+                    <span class="icon">⚙️</span> Functions & Triggers
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-header">
+                <h1 id="page-title">Dashboard</h1>
+                <div class="header-actions">
+                    <span class="db-status">Connected to GIS Database</span>
+                </div>
+            </header>
+            <div id="content-area" class="content-area">
+                <!-- Dynamic content loads here -->
+                <div class="loader">Loading...</div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for Forms -->
+    <div id="modal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3 id="modal-title">Modal Title</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Form content goes here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
